@@ -1,0 +1,13 @@
+@import "../imports/colors";
+
+/** Fonts **/
+@font-face {
+    font-family: ringbearer;
+    src: url("../../../public/fonts/ringbearer.woff") format("woff");
+}
+/** Body **/
+body {
+    margin: 0;
+    padding: 0;
+    background: $bg-color-end;
+}

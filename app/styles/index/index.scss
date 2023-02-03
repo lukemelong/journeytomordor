@@ -1,0 +1,49 @@
+@import "../imports/colors";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    width: 95%;
+    grid-row: 2 / 3;
+    border: 10px outset $Brick;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .map {
+        width: 80%;
+    }
+}
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .title {
+        font-size: 80px;
+    }
+    .map {
+        width: 70%;
+    }
+}
+
+// // X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+// // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+
+}

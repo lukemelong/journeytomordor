@@ -1,0 +1,28 @@
+@import "../imports/colors";
+
+.header {
+    // background: black;
+    background: linear-gradient(180deg, $bg-color-start 0%, $bg-color-start 80%, $bg-color-end 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.title {
+    margin: 0;
+    padding: 30px;
+    grid-row: 1 / 2;
+    font-size: 50px;
+    font-family: ringbearer;
+    text-align: center;
+    color: $title-font-color;
+    text-shadow: 3px 4px 6px #202020, 2px 0 0 white, 3px 4px 6px #def;
+}
+.lotr-to {
+    // display: flex;
+    // align-items: flex-start;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}

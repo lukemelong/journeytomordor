@@ -1,0 +1,33 @@
+/** Palette **/
+/** Variables **/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.map {
+  width: 95%;
+  grid-row: 2/3;
+  border: 10px outset rgb(128, 80, 42);
+}
+
+@media (min-width: 576px) {
+  .map {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .title {
+    font-size: 80px;
+  }
+  .map {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 100px;
+  }
+}/*# sourceMappingURL=index.css.map */

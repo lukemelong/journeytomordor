@@ -1,0 +1,13 @@
+/** Palette **/
+/** Variables **/
+/** Fonts **/
+@font-face {
+  font-family: ringbearer;
+  src: url("../../../public/fonts/ringbearer.woff") format("woff");
+}
+/** Body **/
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(128, 80, 42);
+}/*# sourceMappingURL=global.css.map */
